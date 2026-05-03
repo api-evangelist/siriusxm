@@ -1,0 +1,73 @@
+name: SiriusXM Vocabulary
+description: Domain vocabulary for SiriusXM satellite radio and audio streaming services covering channels, subscriptions, content, and broadcasting concepts.
+url: https://raw.githubusercontent.com/api-evangelist/siriusxm/refs/heads/main/vocabulary/siriusxm-vocabulary.yml
+created: '2026-05-02'
+modified: '2026-05-02'
+tags:
+- Satellite Radio
+- Audio Streaming
+- Broadcasting
+- Music
+- Entertainment
+terms:
+- term: SatelliteRadio
+  definition: Radio broadcasting service delivered via satellite to ground receivers in automobiles, boats, aircraft, and home systems. SiriusXM operates two satellite constellations (Sirius and XM) covering North America.
+  type: concept
+  relatedTerms:
+  - Channel
+  - Subscription
+
+- term: Channel
+  definition: A continuously broadcast audio stream with dedicated content (music genre, sports talk, news, comedy). SiriusXM offers 150+ channels across music, sports, news, talk, and entertainment categories.
+  type: resource
+  relatedTerms:
+  - Genre
+  - Category
+
+- term: Subscription
+  definition: A recurring payment plan granting access to SiriusXM content. Plans vary by channel count (select, all-access) and access method (in-vehicle, streaming app, both). New car trials are common.
+  type: concept
+  relatedTerms:
+  - Trial
+
+- term: Pandora
+  definition: A music streaming service acquired by SiriusXM in 2019. Pandora offers internet radio (Pandora Free), on-demand streaming (Pandora Plus and Premium), and music discovery via the Music Genome Project.
+  type: concept
+  relatedTerms:
+  - Streaming
+
+- term: OEM
+  definition: Original Equipment Manufacturer. SiriusXM partners with all major automakers to embed satellite radio receivers in new vehicles. OEM integration includes trial subscriptions for new car buyers.
+  type: concept
+  relatedTerms:
+  - Subscription
+
+- term: Streaming
+  definition: Online delivery of SiriusXM content via internet connection, available as an add-on to satellite subscriptions or as a standalone online-only plan through the SiriusXM app.
+  type: concept
+  relatedTerms:
+  - Channel
+  - Pandora
+
+- term: Genre
+  definition: A music or content category defining a channel's programming focus. Examples include Country, Rock, Hip-Hop, Jazz, Classical, Sports Talk, News, Comedy, and Talk.
+  type: classification
+  relatedTerms:
+  - Channel
+
+- term: BusinessMusicService
+  definition: SiriusXM for Business provides curated background music for commercial establishments (restaurants, retail, offices). Separate licensing from consumer satellite subscriptions.
+  type: service
+  relatedTerms:
+  - Subscription
+
+- term: HowardSternShow
+  definition: An exclusive flagship SiriusXM program on Howard 100 and Howard 101 channels, representing a significant content differentiator for the satellite radio service.
+  type: content
+
+- term: Trial
+  definition: A complimentary subscription period (typically 3-12 months) offered to new vehicle purchasers with factory-installed SiriusXM receivers. The standard automotive customer acquisition channel for SiriusXM.
+  type: concept
+  relatedTerms:
+  - Subscription
+  - OEM

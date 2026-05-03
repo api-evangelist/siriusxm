@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/siriusxm/main/json-schema/siriusxm-channel-schema.json",
+  "title": "SiriusXM Channel",
+  "description": "Schema representing a SiriusXM satellite or streaming radio channel.",
+  "type": "object",
+  "properties": {
+    "channelId": {"type": "string", "description": "Unique channel identifier."},
+    "name": {"type": "string", "description": "Channel name (e.g., The Highway, Classic Rewind)."},
+    "number": {"type": "integer", "description": "Satellite channel number."},
+    "description": {"type": "string", "description": "Channel description and genre."},
+    "genre": {"type": "string", "description": "Primary music or content genre."},
+    "category": {
+      "type": "string",
+      "enum": ["Music", "Sports", "News", "Talk", "Comedy", "Family", "Traffic & Weather", "Spanish"],
+      "description": "Broad channel category."
+    },
+    "isAvailableOnline": {"type": "boolean", "description": "Whether channel streams online."},
+    "isExclusive": {"type": "boolean", "description": "Whether channel is SiriusXM exclusive."},
+    "imageUrl": {"type": "string", "format": "uri", "description": "Channel logo image URL."}
+  },
+  "required": ["channelId", "name"]
+}

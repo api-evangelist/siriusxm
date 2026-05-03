@@ -1,0 +1,9 @@
+name: SiriusXM
+description: SiriusXM satellite radio and audio streaming service profile.
+url: https://raw.githubusercontent.com/api-evangelist/siriusxm/refs/heads/main/review.yml
+created: '2026-05-02'
+modified: '2026-05-02'
+reviews:
+- date: '2026-05-02'
+  rating: 1
+  summary: SiriusXM does not offer a public developer API. The company provides satellite radio and streaming music services through subscription plans and automotive OEM partnerships. An unofficial community API (xmplaylist.com) exists for channel metadata but is not officially affiliated. The internal REST API at player.siriusxm.com is private and undocumented. For business integrations, contact SiriusXM directly.

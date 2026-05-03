@@ -1,0 +1,25 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "siriusxm": "https://www.siriusxm.com/vocab#",
+
+    "Channel": "schema:BroadcastChannel",
+    "RadioStation": "schema:RadioStation",
+    "Subscription": "schema:SubscribeAction",
+
+    "channelId": "@id",
+    "name": "schema:name",
+    "description": "schema:description",
+    "number": "schema:broadcastChannelId",
+    "genre": "schema:genre",
+    "category": "schema:category",
+    "imageUrl": "schema:image",
+    "isAvailableOnline": "schema:isAvailable",
+
+    "subscriptionType": "schema:additionalType",
+    "monthlyPrice": "schema:price",
+    "annualPrice": "schema:price",
+    "trialDays": "siriusxm:trialDays"
+  }
+}
