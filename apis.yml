@@ -6,28 +6,32 @@ created: '2026-05-02'
 modified: '2026-05-02'
 specificationVersion: '0.19'
 tags:
-- Satellite Radio
-- Audio Streaming
-- Entertainment
-- Music
-- Broadcasting
+  - Satellite Radio
+  - Audio Streaming
+  - Entertainment
+  - Music
+  - Broadcasting
 apis: []
 common:
-- type: Website
-  url: https://www.siriusxm.com
-- type: CorporateSite
-  url: https://corporate.siriusxm.com
-- type: BusinessServices
-  url: https://www.siriusxm.com/business
-- type: PandoraStreaming
-  url: https://www.pandora.com
-- type: InvestorRelations
-  url: https://ir.siriusxm.com
-- type: TermsOfService
-  url: https://www.siriusxm.com/terms
-- type: PrivacyPolicy
-  url: https://www.siriusxm.com/privacy
+  - type: GitHubOrganization
+    url: https://github.com/siriusxm
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/siriusxm
+  - type: Website
+    url: https://www.siriusxm.com
+  - type: CorporateSite
+    url: https://corporate.siriusxm.com
+  - type: BusinessServices
+    url: https://www.siriusxm.com/business
+  - type: PandoraStreaming
+    url: https://www.pandora.com
+  - type: InvestorRelations
+    url: https://ir.siriusxm.com
+  - type: TermsOfService
+    url: https://www.siriusxm.com/terms
+  - type: PrivacyPolicy
+    url: https://www.siriusxm.com/privacy
 maintainers:
-- FN: API Evangelist
-  url: https://apievangelist.com
-  email: info@apievangelist.com
+  - FN: API Evangelist
+    url: https://apievangelist.com
+    email: info@apievangelist.com
