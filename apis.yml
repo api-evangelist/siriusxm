@@ -13,6 +13,8 @@ tags:
   - Broadcasting
 apis: []
 common:
+  - type: DomainSecurity
+    url: security/siriusxm-domain-security.yml
   - type: GitHubOrganization
     url: https://github.com/siriusxm
   - type: LinkedIn
